@@ -10,12 +10,12 @@ _class: lead
 paginate: true
 backgroundColor: #fff
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
-header: 'Sample Course Name'
-footer: '![height:50px](http://erdogan.edu.tr/Images/Uploads/MyContents/L_379-20170718142719217230.jpg) RTEU CE204 Week-1'
-title: "Sample Course Name"
-author: "Author: Asst. Prof. Dr. Uğur CORUH"
+header: 'VS code'
+footer: '![height:50px](http://erdogan.edu.tr/Images/Uploads/MyContents/L_379-20170718142719217230.jpg) patika.dev week-1'
+title: "VS CODE"
+author: "Author: kodluyoruz team"
 date:
-subtitle: "Sample Course Module Name"
+subtitle: "Using Vscode "
 geometry: "left=2.54cm,right=2.54cm,top=1.91cm,bottom=1.91cm"
 titlepage: true
 titlepage-color: "FFFFFF"
@@ -50,11 +50,11 @@ math: katex
 
 <!-- paginate: false -->
 
-## Sample Course Name
+## VS CODE
 
-### Week-1 (Sample Course Module Name)
+### Week-1 (Quide Vs code )
 
-#### Spring Semester, 20XX-20XX
+#### Fall Semester, 2022-2023
 
 Download [DOC](week-1.en.md_doc.pdf), [SLIDE](week-1.en.md_slide.pdf), [PPTX](week-1.en.md_slide.pptx)
 
@@ -64,156 +64,154 @@ Download [DOC](week-1.en.md_doc.pdf), [SLIDE](week-1.en.md_slide.pdf), [PPTX](we
 
 <!-- paginate: true -->
 
-### Outline
+### Content
 
-- Sample Outline
-- Sample Outline
-- Sample Outline
-- Sample Outline
-
----
-
-## **Sample Topic**
+- Visual Studio Code Kullanımı
+- Explorer
+- Search
+- Extensions
 
 ---
 
-### Sample Topic
-
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-  - when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
-    - but also the leap into electronic typesetting, remaining essentially unchanged. 
-      - It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+## **VS Code**
 
 ---
 
-### Sample Images-1
+### **Using Visual Studio Code**
 
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+- Overview, Theme and File Icon Settings
 
-![center h:400px](assets/sample-1.png)
+   In this article, we will tell you about the general appearance, theme and file icon settings on Visual Studio Code.
+---
+
+### Vs code 
+
+ After successfully logging into Visual Studio Code, a menu bar greets us on the left. Let's start by addressing this menu bar.
+
+![bg right:40% h:100x](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-men%C3%BCbar.png)
 
 ---
 
-### Sample Images-2
+### Vs code
 
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-
-![bg right:50% h:400px](assets/sample-1.png)
-
----
-
-### Sample Images-3
-
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-
-![bg left:50% h:400px](assets/sample-1.png)
+- **Explorer(1)**
+The first part in the menu bar is "Explorer". In this section, we can view the project folder that is open in Visual Studio Code. When we look at the image above, we can see that no project folder has been opened yet. In such a case, we can open the project folder by clicking the "Open Project" option.
+![bg right:40% h:400px](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-men%C3%BCbar2exp.png)
 
 ---
 
-### Sample Images-4
+### Vs code
 
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+- **explorer(2)**
+After successfully opening the project folder, we see an image similar to the image above. In this section, besides viewing the project folder, we can perform various operations such as opening new folders and files by clicking the icons marked in the image. If you have difficulty in opening the project folder and remembering which button performs which action, you can find them in the previous topic.
 
-![bg h:400px](assets/sample-1.png)
-
----
-
-### Sample Images-5
-
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-
-![bg left:50% h:800px](assets/sample-1.png)
-![bg left:50% h:800px](assets/sample-2.png)
+![bg left:40% h:400px](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-men%C3%BCbar3exp.png)
 
 ---
 
-### Sample Images-6
+### Vs code
 
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+- **Search(1)**
 
-![bg left:50% h:300px](assets/sample-1.png)
-![bg left:50% h:500px](assets/sample-2.png)
-
----
-
-###  Latex Sample-1
-
-$$
-\begin{align}
-  \begin{aligned}
-  \text{compute } m[i,i+1] \\
-  \underbrace{ \{ m[1,2],m[2,3], \dots ,m[n-1,n]\} }_{(n-1) \text{ values}}
-  \end{aligned}
-    & \begin{cases}
-    & \ell=2  \\
-    & \text{for } i=1 \text{ to } n-1 \text{ do } \\
-    & \quad m[i,i+1]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i \text{ do } \\
-    &  \quad \quad \quad \vdots
-    \end{cases} \\
-  \begin{aligned}
-  \text{compute } m[i,i+2] \\
-  \underbrace{ \{ m[1,3],m[2,4], \dots ,m[n-2,n]\} }_{(n-2) \text{ values}}
-  \end{aligned}
-    & \begin{cases}
-    & \ell=3  \\
-    & \text{for } i=1 \text{ to } n-2 \text{ do } \\
-    & \quad m[i,i+2]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i+1 \text{ do } \\
-    & \quad \quad \quad \vdots
-    \end{cases} \\
-  \begin{aligned}
-  \text{compute } m[i,i+3] \\
-  \underbrace{ \{ m[1,4],m[2,5], \dots ,m[n-3,n]\} }_{(n-3) \text{ values}}
-    \end{aligned}
-    & \begin{cases}
-    & \ell=4  \\
-    & \text{for } i=1 \text{ to } n-3 \text{ do } \\
-    & \quad m[i,i+3]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i+2 \text{ do } \\
-    & \quad \quad \quad \vdots
-    \end{cases}
-\end{align}
-$$
+The "Search" section appears second in the menu bar. In this section, you can search within your project folder. Let's take a look at a small example.
+![bg right h:400px](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-search.png)
 
 ---
 
-### Latex Sample-2
+### Vs code
 
-$$
-\begin{align*}
-& \text{OPTIMAL-BST-COST} (p, n) \\
-& \quad \text{for} \ i \leftarrow 1 \ \text{to} \ n \ \text{do} \\
-& \qquad c[i, i-1] \leftarrow 0 \\
-& \qquad c[i, i] \leftarrow p[i] \\
-& \qquad R[i, j] \leftarrow i \\
-& \quad PS[1] \leftarrow p[1] \Longleftarrow PS[i] \rightarrow  \text{ prefix-sum } (i): \text{Sum of all} \ p[j] \ \text{values for}  \ j \leq i
- \\
-& \quad \text{for} \ i \leftarrow 2 \ \text{to} \ n \ \text{do} \\
-& \qquad PS[i] \leftarrow p[i] + PS[i-1]  \Longleftarrow  \text{compute the prefix sum} \\
-& \quad \text{for} \ d \leftarrow 1 \ \text{to} \ n−1 \ \text{do}   \Longleftarrow  \text{BSTs with} \ d+1 \ \text{consecutive keys} \\
-& \qquad \text{for} \  i \leftarrow 1 \ \text{to} \ n – d \ \text{do} \\
-& \qquad \quad j \leftarrow i + d \\
-& \qquad \quad c[i, j] \leftarrow \infty \\
-& \qquad \quad \text{for} \ r \leftarrow i \ \text{to} \ j \ \text{do} \\
-& \qquad \qquad q \leftarrow min\{c[i,r-1] + c[r+1, j]\} +  PS[j] – PS[i-1]\} \\
-& \qquad \qquad \text{if} \ q < c[i, j] \ \text{then} \\
-& \qquad \qquad \quad c[i, j]  \leftarrow q \\
-& \qquad \qquad \quad R[i, j] \leftarrow r \\
-& \quad \text{return} \ c[1, n], R
-\end{align*}
-$$
+In our example, we can see that we searched for "we're coding" inside the project folder and the editor returned two results for this search. The "Replace" part in the example allows us to change the search results in bulk. What do we mean?
+
+![bg left:50% h:400px](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-kod.png)
 
 ---
 
-**TODO** UPDATE CONTENT FOR YOUR COURSE NOTES
+### Vs code
+
+Let's try to explain a little more what we mean with this image. In our example, we can see that we wrote "code.org" in the replace section and when we continue with the process, we can see that "we are coding.org" is now written on the lines that used to be written "we are coding".
+
+![bg right:40% h:400px](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-org.png)
+
+---
+
+### Vs code
+
+- **Source Control**
+The third part is the "Source Control", that is, the "Version Control" part. In this part, you can create an automatic version control system and share it on "Github".
+
+![bg left:40% h:400px](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-source.png)
+
+---
+
+### Vs code
+
+- **Run**
+"Run" welcomes us as the fourth part in the menu bar. We can run the codes we wrote in this section or the "Debug" system.
+
+![bg right:40% h:400px](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-debug.png)
+
+
+---
+
+### Vs code
+
+- **Extensions**
+The fifth part is the "Extensions" part. In this section, we can install popular plugins. "What do plugins do?" You seem to be asking the question :) Don't worry, we'll talk about add-ons in our upcoming articles.
+After examining the structures in the upper parts of the menu bar, we can continue by examining the lower parts.
+
+![bg left:40% h:400px](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-ext.png)
+
+---
+
+### Vs code
+
+- **Extensions(2)**
+In this section, we first meet a section where we can synchronize our own settings. With this feature, you can synchronize your settings if you are using different computers or want to switch to another computer.
+
+![bg right:40% h:400px](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-alt.png)
+
+
+--- 
+
+### Vs code
+
+- **Extensions(3)**
+In the other and last part of the menu bar, there is a section where we can view the command palette, access the settings easily, change the theme and file icon settings of the editor.
+
+![bg left:40% h:400px](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-ayar.png)
+
+
+--- 
+
+### Vs code
+
+- **Tema ve Dosya İkonu Ayarları**
+For theme and file icon settings, you must first click on the last icon we introduced in the menu bar. Then you will see;
+
+![bg right:40% h:400px](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-tema.png)
+
+--- 
+
+### Vs code
+
+In the other and last part of the menu bar, there is a section where we can view the command palette, access the settings easily, change the theme and file icon settings of the editor.
+
+--- 
+
+### Vs code
+
+- **You can set the theme of your editor by clicking on the "Color Theme" option.**
+
+
+![center :70% h:500px](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-tema.gif)
+
+--- 
+### Vs code
+
+- **You can change the file icons in your editor by clicking "File Icon Theme".**
+
+
+![center :70% h:500px](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/editor-kullanimi/visual-studio-code/vs-genelgorunum/figures/vs-fileikon.gif)
 
 --- 
 
@@ -224,7 +222,7 @@ $$
 - https://www.hindawi.com/journals/scn/2018/6563089/ 
 - https://dl.acm.org/doi/abs/10.1145/3410352.3410836
 - https://www.sciencedirect.com/science/article/abs/pii/S2214212621002623 
-
+-https://app.patika.dev/courses/visual-studio-code-kullanimi/vs-genelgorunum
 
 ---
 
